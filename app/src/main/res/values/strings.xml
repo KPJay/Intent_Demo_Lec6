@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Intent_Demo_Lec6</string>
+
+
+    <string name="edtTxt_ma1">Enter Age</string>
+    <string name="txtHead_ma1">Age</string>
+    <string name="edtTxt2_ma1">Enter Name</string>
+    <string name="btn_ma1">To UI2</string>
+    <string name="btn_ma2">Back Home</string>
+
+    <string name="tv_ma2">Age is:</string>
+    <string name="tv2_ma2">Name is:</string>
+
+    <string-array name="my_itm_lst">
+
+        <item>CSIT111</item>
+        <item>CSIT112</item>
+        <item>CSIT113</item>
+        <item>CSIT114</item>
+        <item>CSIT115</item>
+        <item>CSIT116</item>
+        <item>CSIT117</item>
+        <item>CSIT118</item>
+        <item>CSIT119</item>
+        <item>CSIT120</item>
+        <item>CSIT121</item>
+        <item>CSIT131</item>
+        <item>CSIT141</item>
+
+
+    </string-array>
+</resources>
