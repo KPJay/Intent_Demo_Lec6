@@ -15,16 +15,21 @@
         android:id="@+id/tv_ma2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_bottom"
+        android:layout_gravity="center_horizontal"
         />
     <TextView
         android:id="@+id/tv2_ma2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_bottom"
+        android:layout_gravity="center_horizontal"
         />
     <Button
         android:id="@+id/btn_ma2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_ma2"/>
+        android:text="@string/btn_ma2"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

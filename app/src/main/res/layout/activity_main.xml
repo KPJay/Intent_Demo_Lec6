@@ -14,29 +14,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtHead_ma1" />
+        android:text="@string/txtHead_ma1"
+        android:textSize="@dimen/tv_size_ma1"
+        android:paddingBottom="@dimen/padding_bottom"
+        android:layout_gravity="center_horizontal"/>
 
     <EditText
         android:id="@+id/edtTxt_ma1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edtTxt_ma1"/>
+        android:hint="@string/edtTxt_ma1"
+        android:inputType="number"
+        android:paddingBottom="@dimen/padding_bottom"/>
     <EditText
         android:id="@+id/edtTxt2_ma1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edtTxt2_ma1"/>
+        android:hint="@string/edtTxt2_ma1"
+        android:inputType="textPersonName"
+        android:paddingBottom="@dimen/padding_bottom"/>
+
     <Button
         android:id="@+id/btn_ma1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_ma1"/>
+        android:text="@string/btn_ma1"
+        android:layout_gravity="center_horizontal" />
 
     <ListView
         android:id="@+id/ls_view1_ma1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:listSelector="@drawable/bg_key"
+        android:listSelector="@color/pressed_color"
         android:choiceMode="singleChoice"
         android:clickable="true">
 
